@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(245, 246, 247);
+    font-family: 'Roboto Mono', monospace;
+}
+.navigationBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(10, 10, 33);
+    color: white;
+}
+.searchBarContainer {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchBtn {
+    background: rgba(59, 59, 77);
+    border: 0px;
+    height: 26px;
+}
+.searchBox {
+    background: rgba(59, 59, 77);
+    border: 0px;
+    width: 220px;
+}
+.webTitle {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+.freeCodeCampIcon {
+    margin-left: 5px;
+}
+.navigationBtnsContainer {
+    display: flex;
+    padding: 2px;
+    margin-right: 10px;
+}
+.menuBtn {
+    background-color: rgb(10, 10, 33);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    border: solid white 1px;
+    padding: 2px 5px;
+}
+.registerBtn {
+    color: rgb(10, 10, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 2px 5px;
+    border: solid rgb(243, 176, 78) 2px;
+    background-image: linear-gradient(rgb(246, 200, 96), rgb(246, 178, 81));
+}
+.mainTextContainer {
+    display: flex;
+    justify-content: center;
+}
+.textContainer {
+    margin-top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.contentText1 p {
+    margin-bottom: 30px;
+}
+.contentText2 {
+    font-size: 14px;
+}
+.companiesIcons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px; 
+}
+.gameTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    background-image: linear-gradient(rgb(246, 200, 96), rgb(246, 178, 81));
+    border: solid rgb(243, 176, 78) 2px;
+    margin: 20px 0px;
+}
+.registerBtn:hover, .gameTitle:hover {
+    background: rgb(246, 200, 96);
+}
+.canvasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#canvas {
+    margin: 10px;
+}
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.startBtn,.stopBtn,.reset-gameBtn,.slider,.rules {
+    background-color: #777777;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+}
+.slider {
+    display: flex;
+}
+.sliderBar {
+    padding-top: 4px;
+    margin-left: 2px;
+}
+
+@media only screen and (max-width: 980px) {
+    .searchBarContainer {
+      display: none;
+    }
+    .webTitle {
+        justify-content: left;
+        margin-left: 10px;
+    }
+  }

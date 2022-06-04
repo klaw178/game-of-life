@@ -1,0 +1,26 @@
+.webTitle {
+    font-size: 25px;
+    margin: 10px;
+}
+#canvas {
+    margin: 10px;
+}
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.startBtn,.stopBtn,.reset-gameBtn,.slider,.rules {
+    background-color: #777777;
+    color: white;
+    margin: 5px;
+    padding: 3px;
+}
+.slider {
+    display: flex;
+}
+.sliderBar {
+    padding-top: 4px;
+    margin-left: 2px;
+}
